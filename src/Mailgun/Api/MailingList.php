@@ -19,6 +19,8 @@ use Mailgun\Model\MailingList\UpdateResponse;
 
 class MailingList extends HttpApi
 {
+    use Pagination;
+
     /**
      * @return Member
      */
